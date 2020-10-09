@@ -1,0 +1,25 @@
+{
+  "name": "netlify3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haxanfox/netlify3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haxanfox/netlify3/issues"
+  },
+  "homepage": "https://github.com/haxanfox/netlify3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.1",
+    "serverless-http": "^2.6.0"
+  }
+}
